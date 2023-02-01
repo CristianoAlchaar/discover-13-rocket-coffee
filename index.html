@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-Br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rocket Coffee</title>
+    <link rel="stylesheet" href="./src/reset.css">
+    <link rel="stylesheet" href="./src/style.css">
+</head>
+<body>
+    <header>
+        <nav id="top-nav">
+            <a id="logo" href="">
+                <picture>
+                    <source media="(max-width:680px)" srcset="./assets/logo-mobile.svg">
+                    <img  srcset="./assets/logo-desktop.svg">
+                </picture>
+            </a>
+            <button type="button" id="btn-open-close-menu" onclick="toggleMenu()"><img id="toggle-menu-img" src="/assets/menu-buguer-open.svg"></button>
+            <ul id="menu">
+                <li><a href="">Home</a></li>
+                <li><a href="">Menu</a></li>
+                <li><a href="">Recompensa</a></li>
+                <li><a href="">Gift Card</a></li>
+                <li><a href="">Lojas</a></li>
+            </ul>
+            <button type="button" class="btn-get-coffee">Pegar meu café</button>
+        </nav>
+    </header>
+    <main>
+
+        <p id="header-title">O café que fará seu código decolar para o próximo nível.</p>
+        <button type="button" id="btn-get-coffee-hidden" class="btn-get-coffee">Pegar meu café</button>
+
+        <h1 class="great-h1" id="great-coffee">Great Coffe</h1>
+        <h1 class="great-h1" id="great-code">&lt;Great Code &gt;</h1>
+        
+        <img id="img-coffee" src="./assets/rocket-coffee.png">
+        <img id="blur-left" src="./assets/blur-1.png">
+        <img id="blur-right" src="./assets/blur-2.png">
+        <img id="blur-mobile" src="./assets/blur-mobile.png">
+    </main>
+    <script src="./src/script.js"></script>
+</body>
+</html>
