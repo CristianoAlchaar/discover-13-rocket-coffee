@@ -2,8 +2,8 @@ const buttonImage = document.getElementById("toggle-menu-img");
 const linkMenu = document.getElementById("menu");
 const mainContent = document.querySelector("main");
 
-const menuBurguerCloseSVG = '../assets/menu-buguer-close.svg'
-const menuBurguerOpenSVG = '../assets/menu-buguer-open.svg'
+const menuBurguerCloseSVG = './../assets/menu-buguer-close.svg'
+const menuBurguerOpenSVG = './../assets/menu-buguer-open.svg'
 
 let isToggled = false; //false if menu is not opened, true otherwise
 
